@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Warhammer Battle Tracker</string>
+    <string name="dice_result">Dice Result: %d</string>
+</resources>

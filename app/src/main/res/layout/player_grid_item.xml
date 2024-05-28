@@ -1,0 +1,9 @@
+<!-- Customize the layout of each player grid item -->
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/wbtsplash"
+    android:layout_gravity="center"
+    android:padding="8dp"/>
