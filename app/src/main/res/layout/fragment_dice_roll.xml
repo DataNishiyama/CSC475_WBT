@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/button_roll_dice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="Roll Dice"
-        android:onClick="rollDice" />
+        android:onClick="rollDice" /> <!-- Set onClick attribute here -->
 
     <TextView
         android:id="@+id/text_dice_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dice Result: "
+        android:layout_below="@id/button_roll_dice"
+        android:layout_centerHorizontal="true"
         android:textSize="24sp"
         android:textStyle="bold"
         android:visibility="gone" />
 
-</LinearLayout>
+</RelativeLayout>
